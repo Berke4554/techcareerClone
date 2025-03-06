@@ -1,88 +1,90 @@
 :root {
-    /* Yazı tipleri */
-    --font-primary: 'Roboto', sans-serif;
-    --font-secondary: 'Arial', sans-serif;
+  /* Yazı tipleri */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Arial', sans-serif;
+
+  /* Yazı boyutları */
+  --font-size-small: 15px;
+  --font-size-medium: 16px;
+  --font-size-large: 18px;
+  --font-size-xlarge: 24px;
+
+  /* Renkler */
+  --color-primary:#1d1d1d; /* Metin rengi */ ; 
+  --color-gray:#A5A9B2;/* Gri */
+  --color-green: #02D076; /*Yeşil*/
+  --color-banner:#FAFAFA
   
-    /* Yazı boyutları */
-    --font-size-small: 15px;
-    --font-size-medium: 16px;
-    --font-size-large: 18px;
-    --font-size-xlarge: 24px;
-  
-    /* Renkler */
-    --color-primary:#1d1d1d; /* Metin rengi */ ; 
-    --color-gray:#A5A9B2;/* Gri */
-    --color-green: #02D076; /*Yeşil*/
-    
-  
-
-  }
-
-
-
+}
 
 body {
-    font-family: var(--font-primary);
-    color: var(--color-primary);
-  }
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  
+}
 
-header{
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Yalnızca alt tarafa gölge */
-  }
+
 
 .search-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border: 1px solid rgb(202, 194, 194);
-    border-radius: 5px;
-    padding: 4px;
-    padding-right: 14px;
-    padding-left: 10px;
-    cursor: text; /* Tüm alanın tıklanabilir olduğunu gösterir */
-    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Sadece border ve gölge için geçiş */
-  }
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgb(202, 194, 194);
+  border-radius: 5px;
+  padding: 4px;
+  padding-right: 14px;
+  padding-left: 10px;
+  cursor: text; /* Tüm alanın tıklanabilir olduğunu gösterir */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Sadece border ve gölge için geçiş */
+}
 
 
-  .search-container:hover,
-  .search-container:focus-within {
-    border-color: #333; /* Hover ve focus durumunda border rengini siyah yap */
-    box-shadow: 0 0 5px rgba(59, 90, 230, 0.8); /* Hafif bir gölge efekti ekle */
-  }
+.search-container:hover,
+.search-container:focus-within {
+  border-color: #333; /* Hover ve focus durumunda border rengini siyah yap */
+  box-shadow: 0 0 5px rgba(59, 90, 230, 0.8); /* Hafif bir gölge efekti ekle */
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 16px;
+  color: #293349;
   
-  .search-container input {
-    border: none;
-    outline: none;
-    background: transparent;
-    flex: 1;
-    font-size: 16px;
-    color: #293349;
-    
-  }
+}
 
-  .search-container input::placeholder {
-    color: #A5A9B2; 
-    font-size: var(--font-size-small) ;
-    
-  }
+.search-container input::placeholder {
+  color: #A5A9B2; 
+  font-size: var(--font-size-small) ;
+  
+}
 
-  .navItem ul>li>a{
-    color: var(--color-primary);
-  }
+.navItem ul>li>a{
+  color: var(--color-primary);
+}
 
-  /* Dropdown'un hover ile açılmasını sağla */
-  .navbar .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-  }
+.navItem ul>li>a:hover{
+  color: var(--color-green);
+}
 
-  /* İş ilanları Popover */
-  /* Popover genel stil */
+
+
+
+/* Dropdown'un hover ile açılmasını sağla */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* İş ilanları Popover */
+/* Popover genel stil */
 .popover {
-  background-color: var(--color-primary); /* Arkaplan rengini değiştir */
-  color: rgb(7, 59, 204); /* Yazı rengini değiştir */
-  border-radius: 5px; /* Köşeleri yuvarlat */
-  text-align: center;
+background-color: var(--color-primary); /* Arkaplan rengini değiştir */
+color: rgb(7, 59, 204); /* Yazı rengini değiştir */
+border-radius: 5px; /* Köşeleri yuvarlat */
+text-align: center;
 }
 
 /* Popover başlık */
@@ -90,12 +92,10 @@ header{
 
 /* Popover içeriği */
 .popover-body {
-  padding: 15px;
-  font-size: 13px;
-  color: white;
+padding: 15px;
+font-size: 13px;
+color: white;
 }
 
 
 
-
- 

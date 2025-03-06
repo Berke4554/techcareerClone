@@ -29,7 +29,7 @@
   </head>
   <body>
     <!--! NAVBAR -->
-    <header class="bg border-bottom-dark sticky-top">
+    <header class="mb-1" style="box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1)">
       <div class="mx-xxl-5 px-xxl-5">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg mx-xxl-5 px-xxl-3 py-3">
@@ -50,6 +50,7 @@
                   <!-- Logo -->
                   <div>
                     <img
+                      class="img-fluid"
                       src="./Images/techcareer-logo.svg"
                       alt="techcareer-logo"
                     />
@@ -199,10 +200,54 @@
       </div>
     </header>
 
-    <!-- ????????? -->
-    <div class="row"></div>
+    <!--! BANNER -->
+    <div class="banner py-5 px-5" style="background-color: var(--color-banner)">
+      <div class="container-fluid">
+        <div class="row mx-5 px-5">
+          <div class="col-6">
+            <div class="leftBanner ps-2">
+              <h1 class="display-5 fw-medium">
+                <span style="color: var(--color-green)"
+                  >Techcareer.net ile</span
+                >
+                teknoloji kariyerinde hep ileriye
+              </h1>
+              <p class="my-3" style="font-size: var(--font-size-xlarge)">
+                En yenilikçi teknoloji etkinliklerine ve yarışmalarına, heyecan
+                verici iş fırsatlarına, eğitimlere ve yetenek belirleme
+                testlerine ulaşmak için aramıza katıl.
+              </p>
+              <button
+                style="
+                  background-color: var(--color-green);
+                  color: white;
+                  font-weight: 500;
+                  font-size: var(--font-size-small);
+                  border-radius: 5px;
+                "
+                class="btn btn-lg px-4"
+              >
+                Hemen Üye Ol!
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="rightBanner d-flex pe-3 justify-content-end">
+              <img src="Images/bannerImg.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!--! Bootstrap JS CDN  -->
+    <!--! ACTIVITIES CONTAINER -->
+    <div class="activities bg-warning">
+      <div class="container">ACTIVITIES YAPILACAK</div>
+    </div>
+
+    <!--! JOB CONTAINER -->
+
+    <!--* Bootstrap JS CDN  -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -214,7 +259,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!--! Index.js -->
+    <!--* Index.js -->
     <script src="Js/index.js"></script>
   </body>
 </html>
