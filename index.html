@@ -28,6 +28,14 @@
     <link rel="stylesheet" href="./Css/style.css" />
   </head>
   <body>
+    <!--*SCROLL BUTTON -->
+    <button class="btn rounded-pill" id="scrollTopBtn">
+      <div>
+        <i class="fas fa-arrow-up"></i>
+        <span class="fs-6">Yukarı Çık</span>
+      </div>
+    </button>
+
     <!--! NAVBAR -->
     <header class="mb-1" style="box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1)">
       <div class="mx-xxl-5 px-xxl-5">
@@ -201,10 +209,13 @@
     </header>
 
     <!--! BANNER -->
-    <div class="banner py-5 px-5" style="background-color: var(--color-banner)">
+    <div
+      class="banner py-5 px-xxl-5"
+      style="background-color: var(--color-banner)"
+    >
       <div class="container-fluid">
-        <div class="row mx-5 px-5">
-          <div class="col-6">
+        <div class="row mx-xxl-5 px-xxl-5">
+          <div class="col-12 col-lg-6 order-2 order-lg-1">
             <div class="leftBanner ps-2">
               <h1 class="display-5 fw-medium">
                 <span style="color: var(--color-green)"
@@ -231,9 +242,9 @@
               </button>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6 order-1 order-lg-2">
             <div class="rightBanner d-flex pe-3 justify-content-end">
-              <img src="Images/bannerImg.webp" alt="" />
+              <img src="Images/bannerImg.webp" width="100%" alt="" />
             </div>
           </div>
         </div>
@@ -245,8 +256,89 @@
       <div class="container">ACTIVITIES YAPILACAK</div>
     </div>
 
-    <!--! JOB CONTAINER -->
+    <!--! RECRUITMENT CONTAINER -->
+    <div class="recruitment py-5">
+      <div class="container-fluid">
+        <div class="mx-xxl-5 px-xxl-5">
+          <!--* İş İlanlarımız Text -->
+          <div class="mx-xxl-5 px-3">
+            <h2 class="fw-bold">İş İlanlarımız</h2>
+            <p class="text-muted fs-5">
+              Teknoloji kariyerinde ilerlemek için doğru yerdesin. Teknoloji iş
+              ilanlarını keşfetmeye hemen başla!
+            </p>
+          </div>
+          <!--* İş İlanları -->
+          <div class="row mx-2 mx-xxl-5 gx-5 gy-4 justify-content-between">
+            <!--! İş İlan Kart -->
+            <div class="col-12 col-md-4">
+              <div class="row align-items-center p-3 job-card">
+                <div class="col-3 col-sm-2 col-md-3 text-center">
+                  <img src="Images/papara.webp" alt="" width="50px" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-9">
+                  <div>
+                    <h6 class="mb-1 text-truncate">Lead - Identity & Access</h6>
+                    <p class="text-muted fw-bold m-0">Papara</p>
+                    <p class="text-muted m-0">Ankara / Türkiye (Hibrit)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--! İş İlan Kart -->
+            <div class="col-12 col-md-4">
+              <div class="row align-items-center p-3 job-card">
+                <div class="col-3 col-sm-2 col-md-3 text-center">
+                  <img src="Images/papara.webp" alt="" width="50px" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-9">
+                  <div>
+                    <h6 class="mb-1 text-truncate">Lead - Identity & Access</h6>
+                    <p class="text-muted fw-bold m-0">Papara</p>
+                    <p class="text-muted m-0">Ankara / Türkiye (Hibrit)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--! İş İlan Kart -->
+            <div class="col-12 col-md-4">
+              <div class="row align-items-center p-3 job-card">
+                <div class="col-3 col-sm-2 col-md-3 text-center">
+                  <img src="Images/papara.webp" alt="" width="50px" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-9">
+                  <div>
+                    <h6 class="mb-1 text-truncate">Lead - Identity & Access</h6>
+                    <p class="text-muted fw-bold m-0">Papara</p>
+                    <p class="text-muted m-0">Ankara / Türkiye (Hibrit)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="mt-4 mx-xxl-3 p-0">
+              <button
+                style="
+                  border: 1px solid var(--color-green);
+                  color: var(--color-green);
+                "
+                class="btn mx-3 mx-xxl-0 fw-medium"
+              >
+                Tümünü Gör
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--! EDUCATIONS CONTAINER -->
+    <!--! TEST CONTAINER -->
+    <!--! SLIDER -->
+    <!--! TECHCAREER PRODUCTS -->
+    <!--! REFERENCE SLIDER -->
+    <!--! SPONSORSHIPS -->
+    <!--! STUDENTS CONTAINER -->
+    <!--! FOOTER -->
     <!--* Bootstrap JS CDN  -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
