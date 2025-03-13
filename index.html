@@ -32,15 +32,15 @@
     <button class="btn rounded-pill" id="scrollTopBtn">
       <div>
         <i class="fas fa-arrow-up"></i>
-        <span class="fs-6">Yukarı Çık</span>
+        <span class="fs-6 d-none d-md-inline">Yukarı Çık</span>
       </div>
     </button>
 
     <!--! NAVBAR -->
     <header class="mb-1" style="box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1)">
-      <div class="mx-xxl-5 px-xxl-5">
+      <div class="mx-xl-5 px-xl-5">
         <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg mx-xxl-5 px-xxl-3 py-3">
+          <nav class="navbar navbar-expand-lg mx-xl-5 px-xl-3 py-3">
             <div class="container-fluid">
               <div class="d-flex">
                 <!--* Hamburger Menu -->
@@ -210,13 +210,13 @@
 
     <!--! BANNER -->
     <div
-      class="banner py-5 px-xxl-5"
+      class="banner py-5 px-xl-5"
       style="background-color: var(--color-banner)"
     >
       <div class="container-fluid">
-        <div class="row mx-xxl-5 px-xxl-5">
-          <div class="col-12 col-lg-6 order-2 order-lg-1">
-            <div class="leftBanner ps-2">
+        <div class="row mx-xl-5 px-xl-5">
+          <div class="col-12 col-md-7 order-2 order-md-1">
+            <div class="leftBanner ps-4 ps-xl-2">
               <h1 class="display-5 fw-medium">
                 <span style="color: var(--color-green)"
                   >Techcareer.net ile</span
@@ -242,8 +242,10 @@
               </button>
             </div>
           </div>
-          <div class="col-12 col-lg-6 order-1 order-lg-2">
-            <div class="rightBanner d-flex pe-3 justify-content-end">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <div
+              class="rightBanner ps-4 ps-xl-0 d-flex pe-3 justify-content-end"
+            >
               <img src="Images/bannerImg.webp" width="100%" alt="" />
             </div>
           </div>
@@ -259,17 +261,17 @@
     <!--! RECRUITMENT CONTAINER -->
     <div class="recruitment py-5">
       <div class="container-fluid">
-        <div class="mx-xxl-5 px-xxl-5">
+        <div class="mx-xl-5 px-xl-5">
           <!--* İş İlanlarımız Text -->
-          <div class="mx-xxl-5 px-3">
+          <div class="mx-2 mx-xl-5 px-3">
             <h2 class="fw-bold">İş İlanlarımız</h2>
-            <p class="text-muted fs-5">
+            <p class="text-muted fs-6">
               Teknoloji kariyerinde ilerlemek için doğru yerdesin. Teknoloji iş
               ilanlarını keşfetmeye hemen başla!
             </p>
           </div>
           <!--* İş İlanları -->
-          <div class="row mx-2 mx-xxl-5 gx-5 gy-4 justify-content-between">
+          <div class="row mx-2 mx-xl-5 gx-5 gy-4 justify-content-between">
             <!--! İş İlan Kart -->
             <div class="col-12 col-md-4">
               <div class="row align-items-center p-3 job-card">
@@ -315,14 +317,60 @@
                 </div>
               </div>
             </div>
-
-            <div class="mt-4 mx-xxl-3 p-0">
+            <!--! İş İlan Kart -->
+            <div class="col-12 col-md-4">
+              <div class="row align-items-center p-3 job-card">
+                <div class="col-3 col-sm-2 col-md-3 text-center">
+                  <img src="Images/papara.webp" alt="" width="50px" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-9">
+                  <div>
+                    <h6 class="mb-1 text-truncate">Lead - Identity & Access</h6>
+                    <p class="text-muted fw-bold m-0">Papara</p>
+                    <p class="text-muted m-0">Ankara / Türkiye (Hibrit)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--! İş İlan Kart -->
+            <div class="col-12 col-md-4">
+              <div class="row align-items-center p-3 job-card">
+                <div class="col-3 col-sm-2 col-md-3 text-center">
+                  <img src="Images/papara.webp" alt="" width="50px" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-9">
+                  <div>
+                    <h6 class="mb-1 text-truncate">Lead - Identity & Access</h6>
+                    <p class="text-muted fw-bold m-0">Papara</p>
+                    <p class="text-muted m-0">Ankara / Türkiye (Hibrit)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--! İş İlan Kart -->
+            <div class="col-12 col-md-4">
+              <div class="row align-items-center p-3 job-card">
+                <div class="col-3 col-sm-2 col-md-3 text-center">
+                  <img src="Images/papara.webp" alt="" width="50px" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-9">
+                  <div>
+                    <h6 class="mb-1 text-truncate">Lead - Identity & Access</h6>
+                    <p class="text-muted fw-bold m-0">Papara</p>
+                    <p class="text-muted m-0">Ankara / Türkiye (Hibrit)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--*Tümünü Gör Buton -->
+            <div class="mt-4 p-0">
               <button
                 style="
                   border: 1px solid var(--color-green);
                   color: var(--color-green);
+                  font-size: var(--font-size-small);
                 "
-                class="btn mx-3 mx-xxl-0 fw-medium"
+                class="btn mx-3 fw-medium"
               >
                 Tümünü Gör
               </button>
@@ -332,6 +380,211 @@
       </div>
     </div>
     <!--! EDUCATIONS CONTAINER -->
+    <div class="educations py-5">
+      <div class="container-fluid">
+        <div class="mx-xl-5 px-xl-5">
+          <!--* Eğitimlerimiz Text -->
+          <div class="mx-2 mx-xl-5 px-3">
+            <h2 class="fw-bold">Eğitimlerimiz</h2>
+            <p class="text-muted fs-6">
+              Teknoloji sektörüne özel hazırlanan ücretsiz yazılım eğitimlerini
+              takip et, tamamla ve video eğitimler sonunda alacağın sertifikan
+              ile özgeçmişini zenginleştir!
+            </p>
+          </div>
+          <!--* Eğitimlerimiz Cards -->
+          <div class="row mx-2 mx-xl-5">
+            <!-- Linux Bash Script Kartı -->
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+              <div class="card education-card">
+                <!--* Card-Img -->
+                <div class="px-3 pt-3">
+                  <img
+                    src="Images/node.webp"
+                    class="card-img-top rounded"
+                    alt="Linux Bash"
+                  />
+                </div>
+                <!--* Card-Body -->
+                <div class="card-body">
+                  <h5 class="card-title m-0">Linux Bash Script Eğitimi</h5>
+                  <p class="text-muted fw-medium m-0">Hamit Mızrak</p>
+                  <p class="card-text small">
+                    Linux Bash script, otomasyon ve sistem yönetimini
+                    kolaylaştıran güçlü bir betik dilidir...
+                  </p>
+                  <div>
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Linux</span
+                    >
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Bash</span
+                    >
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Otomasyon</span
+                    >
+                  </div>
+                </div>
+                <!--* Divider -->
+                <hr class="mx-3" />
+                <!--* Card-Footer -->
+                <div
+                  class="card-footer border-0 bg-transparent pt-0 gap-2 d-flex"
+                >
+                  <div>
+                    <img src="Images/icon-level-mini-intermediate.svg" alt="" />
+                    <small>Orta</small>
+                  </div>
+                  <div>
+                    <img src="Images/icon-info-card-timer.svg" alt="" />
+                    <small>4 Saat</small>
+                  </div>
+                  <div>
+                    <img src="Images/icon-info-card-certificate.svg" alt="" />
+                    <small>Var</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Linux Bash Script Kartı -->
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+              <div class="card education-card">
+                <!--* Card-Img -->
+                <div class="px-3 pt-3">
+                  <img
+                    src="Images/node.webp"
+                    class="card-img-top rounded"
+                    alt="Linux Bash"
+                  />
+                </div>
+                <!--* Card-Body -->
+                <div class="card-body">
+                  <h5 class="card-title m-0">Linux Bash Script Eğitimi</h5>
+                  <p class="text-muted fw-medium m-0">Hamit Mızrak</p>
+                  <p class="card-text small">
+                    Linux Bash script, otomasyon ve sistem yönetimini
+                    kolaylaştıran güçlü bir betik dilidir...
+                  </p>
+                  <div>
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Linux</span
+                    >
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Bash</span
+                    >
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Otomasyon</span
+                    >
+                  </div>
+                </div>
+                <!--* Divider -->
+                <hr class="mx-3" />
+                <!--* Card-Footer -->
+                <div
+                  class="card-footer border-0 bg-transparent pt-0 gap-2 d-flex"
+                >
+                  <div>
+                    <img src="Images/icon-level-mini-intermediate.svg" alt="" />
+                    <small>Orta</small>
+                  </div>
+                  <div>
+                    <img src="Images/icon-info-card-timer.svg" alt="" />
+                    <small>4 Saat</small>
+                  </div>
+                  <div>
+                    <img src="Images/icon-info-card-certificate.svg" alt="" />
+                    <small>Var</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Linux Bash Script Kartı -->
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+              <div class="card education-card">
+                <!--* Card-Img -->
+                <div class="px-3 pt-3">
+                  <img
+                    src="Images/node.webp"
+                    class="card-img-top rounded"
+                    alt="Linux Bash"
+                  />
+                </div>
+                <!--* Card-Body -->
+                <div class="card-body">
+                  <h5 class="card-title m-0">Linux Bash Script Eğitimi</h5>
+                  <p class="text-muted fw-medium m-0">Hamit Mızrak</p>
+                  <p class="card-text small">
+                    Linux Bash script, otomasyon ve sistem yönetimini
+                    kolaylaştıran güçlü bir betik dilidir...
+                  </p>
+                  <div>
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Linux</span
+                    >
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Bash</span
+                    >
+                    <span
+                      style="background-color: var(--color-badge)"
+                      class="badge border border-dark-subtle text-muted rounded-5"
+                      >Otomasyon</span
+                    >
+                  </div>
+                </div>
+                <!--* Divider -->
+                <hr class="mx-3" />
+                <!--* Card-Footer -->
+                <div
+                  class="card-footer border-0 bg-transparent pt-0 gap-2 d-flex"
+                >
+                  <div>
+                    <img src="Images/icon-level-mini-intermediate.svg" alt="" />
+                    <small>Orta</small>
+                  </div>
+                  <div>
+                    <img src="Images/icon-info-card-timer.svg" alt="" />
+                    <small>4 Saat</small>
+                  </div>
+                  <div>
+                    <img src="Images/icon-info-card-certificate.svg" alt="" />
+                    <small>Var</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="p-0 mt-lg-3">
+              <button
+                style="
+                  border: 1px solid var(--color-green);
+                  color: var(--color-green);
+                  font-size: var(--font-size-small);
+                "
+                class="btn mx-3 fw-medium"
+              >
+                Tümünü Gör
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--! TEST CONTAINER -->
     <!--! SLIDER -->
     <!--! TECHCAREER PRODUCTS -->

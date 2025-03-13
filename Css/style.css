@@ -13,7 +13,8 @@
   --color-primary:#1d1d1d; /* Metin rengi */ ; 
   --color-gray:#A5A9B2;/* Gri */
   --color-green: #02D076; /*Yeşil*/
-  --color-banner:#FAFAFA
+  --color-banner:#FAFAFA;
+  --color-badge: #F6F8FF
   
 }
 
@@ -26,14 +27,17 @@ body {
 /* SCROLL BTN */
 #scrollTopBtn {
   position: fixed;
-  bottom: 60px;
+  z-index: 10;
+  bottom: 70px;
   right: 20px;
   border: none;
-  background-color: #FAFAFA;
+  background-color: #f5f8fa;
   color: rgb(0, 0, 0);
   cursor: pointer;
   display: none;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Hafif bir gölge efekti ekle */
+
 }
 
 #scrollTopBtn:hover {
@@ -131,4 +135,14 @@ color: white;
 .job-card:hover{
   border: 1px solid #1d1d1d ;
   box-sizing: border-box;
+  cursor: pointer;
+
+}
+
+/*Eğitimlerimiz */
+
+.education-card:hover{
+  border: 1px solid #1d1d1d ;
+  box-sizing: border-box;
+  cursor: pointer;
 }
