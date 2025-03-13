@@ -146,3 +146,9 @@ color: white;
   box-sizing: border-box;
   cursor: pointer;
 }
+
+/* Tests */
+
+.tests{
+  background-color: var(--color-banner);
+}
