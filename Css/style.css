@@ -152,3 +152,9 @@ color: white;
 .tests{
   background-color: var(--color-banner);
 }
+
+/* Products */
+.product-cards:hover{
+  border: 1px solid #1d1d1d ;
+  box-sizing: border-box;
+}
